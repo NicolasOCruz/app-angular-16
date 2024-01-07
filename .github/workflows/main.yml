@@ -16,12 +16,12 @@ jobs:
 
     steps:
     - name: Checkout do repositório
-      uses: actions/checkout@v2
+      uses: actions/checkout@v2.4.4
 
     - name: Configurando o NodeJS
       uses: actions/setup-node@v3
       with:
-        node-version: 18
+        node-version: 16
 
     - name: Instalando as dependências do nosso projeto
       run: npm install
