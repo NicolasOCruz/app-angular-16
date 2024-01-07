@@ -16,7 +16,7 @@ jobs:
 
     steps:
     - name: Checkout do repositório
-      uses: actions/checkout@v2.4.4
+      uses: actions/checkout@main
 
     - name: Configurando o NodeJS
       uses: actions/setup-node@v3
